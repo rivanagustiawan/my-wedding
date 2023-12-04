@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "nuxt": "^3.7.3"
+  },
+  "dependencies": {
+    "@nuxt/typescript-build": "^3.0.1",
+    "@nuxt/typescript-runtime": "^3.0.1",
+    "@nuxt/ui": "^2.8.1",
+    "@vueuse/motion": "^2.0.0",
+    "nuxt-property-decorator": "^2.9.1",
+    "vue-awesome-countdown": "^1.1.4"
+  }
+}
